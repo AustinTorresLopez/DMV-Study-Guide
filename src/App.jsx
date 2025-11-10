@@ -355,18 +355,18 @@ export default function App() {
         </button>
       )}
 
-      <div className="mt-4">
-        <button onClick={next}
-        className="px-4 py-2 border border-indigo-600 text-indigo-600 rounded-xl hover:bg-indigo-50"
-        >
-          Siguiente →
-        </button>
-
+      <div className="mt-4">\>
         <button onClick={atras}
         className="px-4 py-2 border border-indigo-600 text-indigo-600 rounded-xl hover:bg-indigo-50"
         >
           ← Atrás
         </button>
+        
+        <button onClick={next}
+        className="px-4 py-2 border border-indigo-600 text-indigo-600 rounded-xl hover:bg-indigo-50"
+        >
+          Siguiente →
+        </button>    
       </div>
     </div>
 
